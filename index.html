@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tony Tech Solution</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero .btn {
+      background-color: white;
+      color: #4e54c8;
+      border-radius: 30px;
+      padding: 10px 25px;
+      transition: 0.3s;
+    }
+    .hero .btn:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .section-title {
+      font-weight: 600;
+      color: #4e54c8;
+      margin-bottom: 40px;
+    }
+    .services i {
+      font-size: 40px;
+      color: #4e54c8;
+      margin-bottom: 20px;
+    }
+    .card {
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .footer {
+      background: #f8f9fa;
+      padding: 25px 0;
+      text-align: center;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#">TONY TECH SOLUCTION</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container" data-aos="fade-up">
+    <h1 class="mb-4">We Build Smart Web Solutions</h1>
+    <p class="lead mb-4">Tony Tech Solution delivers modern, responsive websites and IT services tailored for your business.</p>
+    <a href="#contact" class="btn btn-lg">Get Started</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container" data-aos="fade-right">
+    <h2 class="text-center section-title">About Us</h2>
+    <p class="text-center">
+      Tony Tech Solution is an MCA student-led initiative focused on creating responsive, user-friendly websites for small businesses and individuals. We specialize in HTML, CSS, JavaScript, and Bootstrap development, bringing simple ideas to life online.
+    </p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center section-title" data-aos="fade-left">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="card p-4 text-center h-100">
+          <i class="fas fa-laptop-code mb-3"></i>
+          <h5>Website Development</h5>
+          <p>Create stunning, responsive, and modern websites using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card p-4 text-center h-100">
+          <i class="fas fa-wrench mb-3"></i>
+          <h5>Bug Fixing</h5>
+          <p>Fix layout issues, responsiveness bugs, and improve user experience across all devices.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card p-4 text-center h-100">
+          <i class="fas fa-mobile-alt mb-3"></i>
+          <h5>Mobile Optimization</h5>
+          <p>Make your site lightning fast and mobile-friendly for all screen sizes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5" style="background: linear-gradient(135deg, #4e54c8, #8f94fb); color: white;">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center section-title text-white mb-5">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card p-4 shadow-lg border-0" style="border-radius: 15px;">
+          <div class="card-body text-center">
+            <div class="mb-4">
+              <i class="fas fa-envelope fa-2x mb-2 text-primary"></i>
+              <h5>Email</h5>
+              <p><a href="mailto:anthonyofficial05@gmail.com" class="text-decoration-none">anthonyofficial05@gmail.com</a></p>
+            </div>
+            <div class="mb-4">
+              <i class="fas fa-phone fa-2x mb-2 text-primary"></i>
+              <h5>Phone</h5>
+              <p><a href="tel:+918778413943" class="text-decoration-none">+91 87784 13943</a></p>
+            </div>
+            <div>
+              <i class="fab fa-github fa-2x mb-2 text-primary"></i>
+              <h5>GitHub</h5>
+              <p><a href="https://github.com/anthony-kul" class="text-decoration-none" target="_blank">github.com/anthony-kul</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Tony Tech Solution. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</body>
+</html>
